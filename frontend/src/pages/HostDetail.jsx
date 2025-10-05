@@ -45,7 +45,6 @@ const HostDetail = () => {
 	const [showDeleteModal, setShowDeleteModal] = useState(false);
 	const [showAllUpdates, setShowAllUpdates] = useState(false);
 	const [activeTab, setActiveTab] = useState("host");
-	const [_forceInstall, _setForceInstall] = useState(false);
 
 	const {
 		data: host,
